@@ -1,7 +1,5 @@
 package org.ap.jerseyservlet.rest;
 
-import java.net.HttpURLConnection;
-
 import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -15,7 +13,7 @@ import javax.ws.rs.core.Response;
 
 import org.ap.jerseyservlet.dto.Student;
 import org.ap.jerseyservlet.exception.UncaughtException;
-import org.apache.tomcat.util.codec.binary.StringUtils;
+
 
 @Path("/services")
 public class RESTfulHelloWorld {
